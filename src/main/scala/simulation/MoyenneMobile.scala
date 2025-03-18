@@ -11,5 +11,7 @@ class MoyenneMobile {
     else
       moyMobile(l.slice(1,l.size),size,acc:::List(moyenne(l.slice(0,size))))
   }
+
+
 }
 
