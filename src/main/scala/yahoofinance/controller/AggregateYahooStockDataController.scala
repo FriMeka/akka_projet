@@ -1,4 +1,4 @@
-package stockdata.controller
+package yahoofinance.controller
 
 import scala.concurrent.{Future, Await}
 import scala.concurrent.duration._

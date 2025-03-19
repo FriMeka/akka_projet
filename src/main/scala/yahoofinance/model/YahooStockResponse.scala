@@ -1,4 +1,4 @@
-package stockdata.model
+package yahoofinance.model
 
 case class YahooStockResponse(
                                ticker: String = null,

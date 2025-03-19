@@ -1,7 +1,7 @@
-package stockdata.service
+package yahoofinance.service
 
-import stockdata.controller.AggregateYahooStockDataController
-import stockdata.model.{ApiResponse}
+import yahoofinance.controller.AggregateYahooStockDataController
+import yahoofinance.model.ApiResponse
 import com.google.cloud.functions.{HttpFunction, HttpRequest, HttpResponse}
 import com.google.gson.Gson;
 

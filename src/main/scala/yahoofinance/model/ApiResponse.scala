@@ -1,4 +1,4 @@
-package stockdata.model
+package yahoofinance.model
 
 case class ApiResponse(
                         success: Boolean = false,

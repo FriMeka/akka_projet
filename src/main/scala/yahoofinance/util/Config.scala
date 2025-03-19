@@ -1,4 +1,4 @@
-package stockdata.util
+package yahoofinance.util
 
 import com.typesafe.config._
 

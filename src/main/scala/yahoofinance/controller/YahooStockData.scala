@@ -1,9 +1,9 @@
-package stockdata.controller
+package yahoofinance.controller
 
 import org.jsoup.nodes.Document
 
-import stockdata.jsoup.YahooStockDataParser
-import stockdata.model.YahooStockResponse
+import yahoofinance.jsoup.YahooStockDataParser
+import yahoofinance.model.YahooStockResponse
 
 class YahooStockData(parser: YahooStockDataParser, ticker: String = "") {
 

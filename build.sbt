@@ -43,8 +43,18 @@ lazy val akka_project = project.in(file("."))
       "org.jsoup" % "jsoup" % "1.18.1", //import jsoup
       "com.google.cloud.functions" % "functions-framework-api" % "1.1.0",
     ),
-
     libraryDependencies += "com.google.code.gson" % "gson" % "2.10.1", //import json
+
+    //dependencies for alpha vantage scala by benmosheron
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc
+    libraryDependencies += "org.apache.httpcomponents" % "fluent-hc" % "4.5.14",
+    // https://mvnrepository.com/artifact/io.spray/spray-json
+    libraryDependencies += "io.spray" %% "spray-json" % "1.3.6",
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.5.11",
+    // https://mvnrepository.com/artifact/com.typesafe.scala-logging/scala-logging
+    libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+
 
       /*import React*/
       jsDependencies ++= Seq(

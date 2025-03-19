@@ -1,7 +1,7 @@
-package stockdata.jsoup
+package yahoofinance.jsoup
 
 import org.jsoup.nodes.Document
-import stockdata.util.Config
+import yahoofinance.util.Config
 import scala.util._
 
 /**

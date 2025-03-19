@@ -1,4 +1,4 @@
-package stockdata.jsoup
+package yahoofinance.jsoup
 
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
