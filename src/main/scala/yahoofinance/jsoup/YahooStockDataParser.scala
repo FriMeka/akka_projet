@@ -197,6 +197,7 @@ object YahooStockDataParser {
     val doc = Parser.getParsedHtml(
       getUrlForTicker(ticker)
     )
+    println(doc)
     loadFromDocument(doc)
   }
 

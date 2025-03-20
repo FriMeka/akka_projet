@@ -45,6 +45,8 @@ lazy val akka_project = project.in(file("."))
     ),
     libraryDependencies += "com.google.code.gson" % "gson" % "2.10.1", //import json
 
+    //libraryDependencies += "com.benmosheron" %% "alpha-vantage-scala" % "0.0.3",
+
     //dependencies for alpha vantage scala by benmosheron
     // https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc
     libraryDependencies += "org.apache.httpcomponents" % "fluent-hc" % "4.5.14",

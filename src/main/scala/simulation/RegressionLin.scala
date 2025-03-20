@@ -1,6 +1,6 @@
 package simulation
 
-class RegressionLin {
+object RegressionLin {
   def estimateCoef(y:List[Double],t:List[Double]):List[Double]={
     //retourne le a et b estimé dans l'equation y(t)= at + b
     val moyY=y.sum/y.length
